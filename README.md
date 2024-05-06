@@ -18,7 +18,7 @@ To create your own timeline for this project deliverable, you will need:
       ![Font pairs](timelinejs-fonts-small.png)
     - Save it when you are finished
 3. Upload the whole folder to [the `docs` folder in the GitHub repository](/docs): just drag and drop the folder to the browser window. Write a descriptive commit message (like "First upload of group0 folder", with your group number instead of 0, for example). Make sure ![](commit-master.png) is selected, and click "Commit changes".
-    - Now your timeline, although empty, is uploaded and accesible online through `https://lab.deustokom.news/MSGW-timeline/group0` (change `0` with your group number or `group0` with your folder name).
+    - Now your timeline, although empty, is uploaded and accesible online through `https://lab.deustokom.news/MSGW24-timeline/group0` (change `0` with your group number or `group0` with your folder name).
 4. You create your own timeline by editing the `timeline-data.csv` file in your spreadsheet editor (preferably LibreOffice Calc):
     - Open the file, making sure you specify character set to `UTF-8`. 
     - Add one line for each event you want to show in your timeline. For more information, see:
