@@ -21,7 +21,114 @@ startYear,startMonth,startDay,startTime,endYear,endMonth,endDay,endTime,displayD
 1922,,,,2024,,,,,Kursaal,"The <a href=""https://www.kursaal.eus/es/"" target=""_blank""><strong>Gran Kursaal</strong></a> building in <strong>San Sebastian</strong>, emblematic of the city's <strong>Belle Époque</strong> era, opened on July 29, 1922, but faced closure in 1924 due to a gambling ban. After serving as a provisional venue until 1972, plans emerged to replace it with an Auditorium and Congress Centre. Following a consultation in 1989, <strong>Rafael Moneo</strong>'s design was chosen, emphasizing the site's geography and public space. Construction began in 1995, with the <strong>Chamber Hall</strong> hosting its first congress on June 3, 1999. The complex was officially inaugurated on August 23, 1999, featuring concerts by the <strong>Euskadi Symphony Orchestra</strong> and soprano <strong>Ainhoa Arteta</strong>, marking a new chapter in the city's cultural landscape.
 ",https://www.youtube.com/watch?v=WfUIYcq7dX4&pp=ygUWa3Vyc2FhbCBzYW4gc2ViYXN0aWFuIA%3D%3D,Sistemas de Construccion,Construction and Planning for Kursaal,,,,,DarkRed
 1926,,,,2024,,,,,Cristina Enea Park,"Cristina Enea Park, established in 1926 by Duke Fernando de Soraluce as a tribute to his wife, Cristina Brunetti, is a cherished green space in San Sebastián. It features diverse wildlife including birds, ducks, and peacocks, captivating fountains and lakes, and amenities like play areas and picnic spots. The park's centerpiece, the Duke of Mandas Palace, now serves as an environmental interpretation center offering exhibitions and activities related to nature. Located in the Egia neighborhood near the train station, it's easily accessible and open daily from dawn to dusk.",https://www.youtube.com/watch?v=cAd2pZAED8c,"San Sebastián Turismo-Donostia Turismoa, S.A.",The perfect place to relax,,,,,SeaGreen
-2024,,,,,,,,,,"<div class=""rating-container"">
+2024,,,,,,,,,,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""UTF-8"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<title>TripAdvisor Rating</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 20px;
+    }
+    .rating-container {
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        max-width: 400px;
+        margin: 50px auto;
+    }
+    .rating-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .stars {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .star {
+        color: #ffd700;
+        font-size: 40px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+    .star:hover,
+    .star.active {
+        color: #f39c12;
+    }
+    .submit-btn {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+    }
+    .submit-btn:active {
+        transform: scale(0.95);
+    }
+    .thank-you {
+        display: none;
+        font-size: 18px;
+        color: #4CAF50;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .rating-image {
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+</style>
+</head>
+<body>
+<div class=""rating-container"">
+    <div class=""rating-title"">Rate Your Experience</div>
+    <img src=""rating-image.jpg"" alt=""Rating Image"" class=""rating-image"">
+    <div class=""stars"">
+        <span class=""star"">&#9733;</span>
+        <span class=""star"">&#9733;</span>
+        <span class=""star"">&#9733;</span>
+        <span class=""star"">&#9733;</span>
+        <span class=""star"">&#9733;</span>
+    </div>
+    <button class=""submit-btn"" onclick=""submitRating()"">Submit Rating</button>
+    <div class=""thank-you"" id=""thankYouMessage"">Thank you for your rating!</div>
+</div>
+<script>
+    const stars = document.querySelectorAll('.star');
+    const thankYouMessage = document.getElementById('thankYouMessage');
+
+    function submitRating() {
+        const rating = document.querySelectorAll('.star.active').length;
+        if (rating > 0) {
+            thankYouMessage.style.display = 'block';
+        } else {
+            alert('Please select a rating before submitting.');
+        }
+    }
+
+    stars.forEach(star => {
+        star.addEventListener('click', () => {
+            stars.forEach(s => s.classList.remove('active'));
+            star.classList.add('active');
+        });
+    });
+</script>
+</body>
+</html>
     <div class=""rating-title""><strong>Rate This Timeline</strong></div>
     <div class=""stars"">
         <input type=""radio"" name=""star"" id=""star1"" value=""5"">
