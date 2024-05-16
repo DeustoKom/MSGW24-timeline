@@ -1,41 +1,26 @@
 startYear,startMonth,startDay,startTime,endYear,endMonth,endDay,endTime,displayDate,headline,text,mediaUrl,mediaCredit,mediaCaption,mediaThumbail,type,group,backgroundUrl,backgroundColor
-,,,,,,,,,San Sebastián,This is going to be the catchy description for the timeline,,,,,title,,,blue
+,,,,,,,,,Timeline of San Sebastian,,,,,,title,,"<iframe src=""https://www.youtube.com/embed/DWFLA9ZhUoM?autoplay=1&mute=1&loop=1&playlist=DWFLA9ZhUoM"" frameborder=""0"" allow=""autoplay; encrypted-media"" allowfullscreen></iframe>",blue
 ,,,,,,,,,,"<html lang=""en"">
 <head>
     <meta charset=""UTF-8"">
     <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
-    <title>Timeline with Agenda</title>
+    <title>Agenda</title>
     <style>
         html, body {
             height: 100%;
             width: 100%;
             padding: 0;
             margin: 0;
-        }
-        #timeline {
-            height: 100%;
-            width: 100%;
-            position: relative;
-            overflow: hidden;
-        }
-        iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            pointer-events: none;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
         }
         .agenda {
-            position: relative;
-            z-index: 1;
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color: #ffffff;
             padding: 20px;
             border-radius: 10px;
-            margin: 20px;
-            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             margin: 50px auto;
+            max-width: 800px;
             text-align: center;
         }
         .agenda h2 {
@@ -56,31 +41,21 @@ startYear,startMonth,startDay,startTime,endYear,endMonth,endDay,endTime,displayD
     </style>
 </head>
 <body>
-    <div id=""timeline"">
-        <iframe src=""https://www.youtube.com/embed/DWFLA9ZhUoM?autoplay=1&mute=1&loop=1&playlist=DWFLA9ZhUoM"" frameborder=""0"" allow=""autoplay; encrypted-media"" allowfullscreen></iframe>
-        <div class=""agenda"">
-            <h2>Agenda</h2>
-            <ul>
-                <li><strong>Aquarium:</strong> Visit the famous Aquarium and explore marine life.</li>
-                <li><strong>Monte Igueldo:</strong> Enjoy panoramic views from Monte Igueldo.</li>
-                <li><strong>La Concha Beach and Santa Clara Island:</strong> Relax at La Concha Beach and visit Santa Clara Island.</li>
-                <li><strong>Cristina Enea:</strong> Stroll through the beautiful Cristina Enea park.</li>
-                <li><strong>Old Town:</strong> Explore the historic Old Town.</li>
-                <li><strong>Monte Urgull:</strong> Hike up Monte Urgull for stunning views.</li>
-                <li><strong>Paseo Nuevo:</strong> Walk along the scenic Paseo Nuevo.</li>
-                <li><strong>Kursaal:</strong> Visit the modern Kursaal for events and concerts.</li>
-                <li><strong>Sagues:</strong> Enjoy the vibrant atmosphere at Sagues.</li>
-            </ul>
-        </div>
+    <div class=""agenda"">
+        <h2>Agenda</h2>
+        <ul>
+            <li><strong>Aquarium:</strong> Visit the famous Aquarium and explore marine life.</li>
+            <li><strong>Monte Igueldo:</strong> Enjoy panoramic views from Monte Igueldo.</li>
+            <li><strong>La Concha Beach and Santa Clara Island:</strong> Relax at La Concha Beach and visit Santa Clara Island.</li>
+            <li><strong>Cristina Enea:</strong> Stroll through the beautiful Cristina Enea park.</li>
+            <li><strong>Old Town:</strong> Explore the historic Old Town.</li>
+            <li><strong>Monte Urgull:</strong> Hike up Monte Urgull for stunning views.</li>
+            <li><strong>Paseo Nuevo:</strong> Walk along the scenic Paseo Nuevo.</li>
+            <li><strong>Kursaal:</strong> Visit the modern Kursaal for events and concerts.</li>
+            <li><strong>Sagues:</strong> Enjoy the vibrant atmosphere at Sagues.</li>
+        </ul>
     </div>
-    <script src=""./../js/timeline.js""></script>
-    <script src=""https://d3js.org/d3-collection.v1.min.js""></script>
-    <script src=""https://d3js.org/d3-dispatch.v1.min.js""></script>
-    <script src=""https://d3js.org/d3-dsv.v1.min.js""></script>
-    <script src=""https://d3js.org/d3-request.v1.min.js""></script>
-    <script data-dir=""dir"" src=""./../timeline-local.js""></script>
-</body>
-</html>",,,,,,,,
+</body>",,,,,,,https://upload.wikimedia.org/wikipedia/commons/1/18/Saint_sebastien_2006_05.jpg,
 1200,,,,2024,,,,,Monte Urgull,"Monte Urgull, established as a fortified site in the 12th century, overlooks San Sebastián from one end of La Concha Bay. Steeped in military history, it offers tranquil walks and tarmac pathways leading to panoramic lookout points. The Sagrado Corazón statue, towering over its summit since 1950, symbolizes the city's spirit. At its peak, the Castillo de la Mota fortress stands as a testament to its defensive past, housing the Casa de la Historia de Urgull museum. Nearby, the English Cemetery holds legends of soldiers and tragic romances, adding layers to the mountain's lore.",,,,,,,,LightCyan
 1813,,,,2024,,,,,Old Town ,"The Old Town of San Sebastián, established as the city's embryo and bordered by Mount Urgull, the River Urumea, and the Concha Bay, is a historical gem. It was once enclosed by city walls until their demolition in 1863. Ravaged during the War of Independence in 1813, it now thrives as the social heart of the city. The Plaza de la Constitución, once a bullring, now hosts vibrant local festivities. The Plaza de la Constitución (once a bullring), which is located inside the Old Town, now hosts vibrant local festivities. With its rich gastronomic scene, architectural gems like the San Vicente Church and Basilica of Santa María, and cultural attractions such as the San Telmo Museum, the Old Town beckons visitors to explore its history and charm.",,,,,,,,DarkRed
 1916,,,,2024,,,,,Paseo Nuevo,"The <a href=""https://www.sansebastian.travel/el-paseo-nuevo/"">Paseo Nuevo</a> skirts <strong>Monte Urgull</strong> from the <strong>Harbour</strong> to the <strong>Calle Salamanca</strong>. Opened in 1916, the promenade has received several names over the years related to historic figures of the time, until in 1979 it was officially given the name by which it was popularly known, the <a href=""https://www.sansebastian.travel/el-paseo-nuevo/"">Paseo Nuevo</a>. Added to its views of the <strong>Bay of Biscay</strong> and the coast of <strong>Gipuzkoa</strong>, the Paseo is famous for the sight of its breaking waves, particularly in the area beside the <strong>Sociedad Fotográfica de Gipuzkoa</strong>, the entrance to the <strong>Plaza Zuloaga</strong> and the <strong>Calle San Juan</strong>.
@@ -108,6 +83,7 @@ startYear,startMonth,startDay,startTime,endYear,endMonth,endDay,endTime,displayD
             text-align: center;
             max-width: 500px;
             margin: 50px auto;
+            position: relative;
         }
         .rating-title {
             font-size: 24px;
@@ -157,6 +133,17 @@ startYear,startMonth,startDay,startTime,endYear,endMonth,endDay,endTime,displayD
             from { opacity: 0; }
             to { opacity: 1; }
         }
+        .rocket {
+            width: 50px;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: bottom 1s ease-out;
+        }
+        .rocket.hidden {
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -176,6 +163,7 @@ startYear,startMonth,startDay,startTime,endYear,endMonth,endDay,endTime,displayD
         </div>
         <button class=""submit-btn"" onclick=""submitRating()"">Submit Rating</button>
         <div class=""thank-you"" id=""thankYouMessage"">Thank you for your rating!</div>
+        <img src=""rocket.png"" alt=""Rocket"" class=""rocket hidden"" id=""rocket"">
     </div>
 
     <script>
@@ -183,10 +171,14 @@ startYear,startMonth,startDay,startTime,endYear,endMonth,endDay,endTime,displayD
             const rating = document.querySelector('input[name=""star""]:checked');
             if (rating) {
                 document.getElementById('thankYouMessage').style.display = 'block';
+                const rocket = document.getElementById('rocket');
+                rocket.classList.remove('hidden');
+                rocket.style.bottom = '100%';
             } else {
                 alert('Please select a rating before submitting.');
             }
         }
     </script>
 </body>
-</html>",,,,,,,,
+</html>
+",,,,,,,,
