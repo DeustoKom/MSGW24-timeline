@@ -1,163 +1,41 @@
 startYear,startMonth,startDay,startTime,endYear,endMonth,endDay,endTime,displayDate,headline,text,mediaUrl,mediaCredit,mediaCaption,mediaThumbail,type,group,backgroundUrl,backgroundColor
 ,,,,,,,,,Timeline of San Sebastian,,,,,,title,,"https://www.youtube.com/embed/DWFLA9ZhUoM?autoplay=1&mute=1&loop=1&playlist=DWFLA9ZhUoM"" frameborder=""0"" allow=""autoplay; encrypted-media""",blue
-,,,,,,,,,,"<html lang=""en"">
-<head>
-    <meta charset=""UTF-8"">
-    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
-    <title>Agenda</title>
-    <style>
-        html, body {
-            height: 100%;
-            width: 100%;
-            padding: 0;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-        }
-        .agenda {
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin: 50px auto;
-            max-width: 800px;
-            text-align: center;
-        }
-        .agenda h2 {
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-        .agenda ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .agenda ul li {
-            margin-bottom: 10px;
-            font-size: 18px;
-        }
-        .agenda ul li strong {
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-    <div class=""agenda"">
-        <h2>Agenda</h2>
-        <ul>
-            <li><strong>Aquarium:</strong> Visit the famous Aquarium and explore marine life.</li>
-            <li><strong>Monte Igueldo:</strong> Enjoy panoramic views from Monte Igueldo.</li>
-            <li><strong>La Concha Beach and Santa Clara Island:</strong> Relax at La Concha Beach and visit Santa Clara Island.</li>
-            <li><strong>Cristina Enea:</strong> Stroll through the beautiful Cristina Enea park.</li>
-            <li><strong>Old Town:</strong> Explore the historic Old Town.</li>
-            <li><strong>Monte Urgull:</strong> Hike up Monte Urgull for stunning views.</li>
-            <li><strong>Paseo Nuevo:</strong> Walk along the scenic Paseo Nuevo.</li>
-            <li><strong>Kursaal:</strong> Visit the modern Kursaal for events and concerts.</li>
-            <li><strong>Sagues:</strong> Enjoy the vibrant atmosphere at Sagues.</li>
-        </ul>
-    </div>
-</body>",,,,,,,https://upload.wikimedia.org/wikipedia/commons/1/18/Saint_sebastien_2006_05.jpg,
+,,,,,,,,,Agenda ,"<ul>
+    <li><strong>Aquarium:</strong> Visit the famous Aquarium and explore marine life.</li>
+    <li><strong>Monte Igueldo:</strong> Enjoy panoramic views from Monte Igueldo.</li>
+    <li><strong>La Concha Beach and Santa Clara Island:</strong> Relax at La Concha Beach and visit Santa Clara Island.</li>
+    <li><strong>Cristina Enea:</strong> Stroll through the beautiful Cristina Enea park.</li>
+    <li><strong>Old Town:</strong> Explore the historic Old Town.</li>
+    <li><strong>Monte Urgull:</strong> Hike up Monte Urgull for stunning views.</li>
+    <li><strong>Paseo Nuevo:</strong> Walk along the scenic Paseo Nuevo.</li>
+    <li><strong>Kursaal:</strong> Visit the modern Kursaal for events and concerts.</li>
+    <li><strong>Sagues:</strong> Enjoy the vibrant atmosphere at Sagues.</li>
+</ul>
+",,,,,,,https://upload.wikimedia.org/wikipedia/commons/1/18/Saint_sebastien_2006_05.jpg,
 1200,,,,2024,,,,,Monte Urgull,"Monte Urgull, established as a fortified site in the 12th century, overlooks San Sebastián from one end of La Concha Bay. Steeped in military history, it offers tranquil walks and tarmac pathways leading to panoramic lookout points. The Sagrado Corazón statue, towering over its summit since 1950, symbolizes the city's spirit. At its peak, the Castillo de la Mota fortress stands as a testament to its defensive past, housing the Casa de la Historia de Urgull museum. Nearby, the English Cemetery holds legends of soldiers and tragic romances, adding layers to the mountain's lore.",,,,,,,,LightCyan
 1813,,,,2024,,,,,Old Town ,"The Old Town of San Sebastián, established as the city's embryo and bordered by Mount Urgull, the River Urumea, and the Concha Bay, is a historical gem. It was once enclosed by city walls until their demolition in 1863. Ravaged during the War of Independence in 1813, it now thrives as the social heart of the city. The Plaza de la Constitución, once a bullring, now hosts vibrant local festivities. The Plaza de la Constitución (once a bullring), which is located inside the Old Town, now hosts vibrant local festivities. With its rich gastronomic scene, architectural gems like the San Vicente Church and Basilica of Santa María, and cultural attractions such as the San Telmo Museum, the Old Town beckons visitors to explore its history and charm.",,,,,,,,DarkRed
 1916,,,,2024,,,,,Paseo Nuevo,"The <a href=""https://www.sansebastian.travel/el-paseo-nuevo/"">Paseo Nuevo</a> skirts <strong>Monte Urgull</strong> from the <strong>Harbour</strong> to the <strong>Calle Salamanca</strong>. Opened in 1916, the promenade has received several names over the years related to historic figures of the time, until in 1979 it was officially given the name by which it was popularly known, the <a href=""https://www.sansebastian.travel/el-paseo-nuevo/"">Paseo Nuevo</a>. Added to its views of the <strong>Bay of Biscay</strong> and the coast of <strong>Gipuzkoa</strong>, the Paseo is famous for the sight of its breaking waves, particularly in the area beside the <strong>Sociedad Fotográfica de Gipuzkoa</strong>, the entrance to the <strong>Plaza Zuloaga</strong> and the <strong>Calle San Juan</strong>.
 ",https://www.sansebastianturismoa.eus/images/ssturismo/paseo_nuevo.jpg,"San Sebastián Turismo-Donostia Turismoa, S.A.",Paseo Nuevo from Above,,,,,SeaGreen
-1920,,,,2024,,,,,Sagues,"The history of <a href=""https://www.gipuzkoasansebastian.eus/en/-/sagues"" target=""_blank"" rel=""noopener noreferrer""><strong>Sagues</strong></a> traces back to the early 1920(s) when it emerged haphazardly around the Cemoriya slaughterhouse, catering to workers involved in <strong>Gros</strong> neighborhood's construction. The area's rapid growth led to inadequate housing, poor access, and social issues, drawing the attention of Francoist authorities who sought its demolition during the Civil War and subsequent dictatorship era.
+1920,,,,2024,,,,,Sagues,"The history of <a href=""https://www.gipuzkoasansebastian.eus/en/-/sagues"" target=""_blank"" rel=""noopener noreferrer""><strong>Sagues</strong></a> traces back to the early 1920s when it emerged haphazardly around the Cemoriya slaughterhouse, catering to workers involved in <strong>Gros</strong> neighborhood's construction. The area's rapid growth led to inadequate housing, poor access, and social issues, drawing the attention of <strong>Francoist authorities</strong> who sought its demolition during the Civil War and subsequent dictatorship era.
 ",https://www.youtube.com/watch?v=TRE6v6W2wno&pp=ygUec2FndWVzIHNhbiBzZWJhc3RpYW4gc2thdGVwYXJr,PP San Sebastian,Views captured near Sagues,,,,,LightCyan
-1922,,,,2024,,,,,Kursaal,"The <a href=""https://www.kursaal.eus/es/"" target=""_blank""><strong>Gran Kursaal</strong></a> building in <strong>San Sebastian</strong>, emblematic of the city's Belle Époque era, opened on July 29, 1922, but faced closure in 1924 due to a gambling ban. After serving as a provisional venue until 1972, plans emerged to replace it with an Auditorium and Congress Centre. Following a consultation in 1989, Rafael Moneo's design was chosen, emphasizing the site's geography and public space. Construction began in 1995, with the Chamber Hall hosting its first congress on June 3, 1999. The complex was officially inaugurated on August 23, 1999, featuring concerts by the Euskadi Symphony Orchestra and soprano Ainhoa Arteta, marking a new chapter in the city's cultural landscape.
+1922,,,,2024,,,,,Kursaal,"The <a href=""https://www.kursaal.eus/es/"" target=""_blank""><strong>Gran Kursaal</strong></a> building in <strong>San Sebastian</strong>, emblematic of the city's <strong>Belle Époque</strong> era, opened on July 29, 1922, but faced closure in 1924 due to a gambling ban. After serving as a provisional venue until 1972, plans emerged to replace it with an Auditorium and Congress Centre. Following a consultation in 1989, <strong>Rafael Moneo</strong>'s design was chosen, emphasizing the site's geography and public space. Construction began in 1995, with the <strong>Chamber Hall</strong> hosting its first congress on June 3, 1999. The complex was officially inaugurated on August 23, 1999, featuring concerts by the <strong>Euskadi Symphony Orchestra</strong> and soprano <strong>Ainhoa Arteta</strong>, marking a new chapter in the city's cultural landscape.
 ",https://www.youtube.com/watch?v=WfUIYcq7dX4&pp=ygUWa3Vyc2FhbCBzYW4gc2ViYXN0aWFuIA%3D%3D,Sistemas de Construccion,Construction and Planning for Kursaal,,,,,DarkRed
 1926,,,,2024,,,,,Cristina Enea Park,"Cristina Enea Park, established in 1926 by Duke Fernando de Soraluce as a tribute to his wife, Cristina Brunetti, is a cherished green space in San Sebastián. It features diverse wildlife including birds, ducks, and peacocks, captivating fountains and lakes, and amenities like play areas and picnic spots. The park's centerpiece, the Duke of Mandas Palace, now serves as an environmental interpretation center offering exhibitions and activities related to nature. Located in the Egia neighborhood near the train station, it's easily accessible and open daily from dawn to dusk.",https://www.youtube.com/watch?v=cAd2pZAED8c,"San Sebastián Turismo-Donostia Turismoa, S.A.",The perfect place to relax,,,,,SeaGreen
-2024,,,,,,,,,,"<!DOCTYPE html>
-<html lang=""en"">
-<head>
-    <meta charset=""UTF-8"">
-    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
-    <title>Rating System</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 20px;
-        }
-        .rating-container {
-            max-width: 300px;
-            margin: 50px auto;
-            text-align: center;
-        }
-        .stars {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 20px;
-        }
-        .stars input {
-            display: none;
-        }
-        .stars label {
-            font-size: 30px;
-            color: #ddd;
-            cursor: pointer;
-            transition: color 0.2s;
-        }
-        .stars input:checked ~ label,
-        .stars input:checked ~ label ~ label {
-            color: #f39c12;
-        }
-        .stars label:hover,
-        .stars label:hover ~ label {
-            color: #f39c12;
-        }
-        .submit-btn {
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: transform 0.2s;
-        }
-        .submit-btn:hover {
-            transform: scale(1.05);
-        }
-        .thank-you {
-            display: none;
-            font-size: 18px;
-            color: #4CAF50;
-            margin-top: 20px;
-            animation: fadeIn 1s forwards;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-    </style>
-</head>
-<body>
-    <div class=""rating-container"">
-        <div class=""stars"">
-            <input type=""radio"" name=""star"" id=""star1"" value=""5"">
-            <label for=""star1"">&#9733;</label>
-            <input type=""radio"" name=""star"" id=""star2"" value=""4"">
-            <label for=""star2"">&#9733;</label>
-            <input type=""radio"" name=""star"" id=""star3"" value=""3"">
-            <label for=""star3"">&#9733;</label>
-            <input type=""radio"" name=""star"" id=""star4"" value=""2"">
-            <label for=""star4"">&#9733;</label>
-            <input type=""radio"" name=""star"" id=""star5"" value=""1"">
-            <label for=""star5"">&#9733;</label>
-        </div>
-        <button class=""submit-btn"" onclick=""submitRating()"">Submit Rating</button>
-        <div class=""thank-you"" id=""thankYouMessage"">Thank you for rating!</div>
+2024,,,,,,,,,,"<div class=""rating-container"">
+    <div class=""rating-title""><strong>Rate This Timeline</strong></div>
+    <div class=""stars"">
+        <input type=""radio"" name=""star"" id=""star1"" value=""5"">
+        <label for=""star1"">&#9733;</label>
+        <input type=""radio"" name=""star"" id=""star2"" value=""4"">
+        <label for=""star2"">&#9733;</label>
+        <input type=""radio"" name=""star"" id=""star3"" value=""3"">
+        <label for=""star3"">&#9733;</label>
+        <input type=""radio"" name=""star"" id=""star4"" value=""2"">
+        <label for=""star4"">&#9733;</label>
+        <input type=""radio"" name=""star"" id=""star5"" value=""1"">
+        <label for=""star5"">&#9733;</label>
     </div>
-
-    <script>
-        function submitRating() {
-            const rating = document.querySelector('input[name=""star""]:checked');
-            if (rating) {
-                document.getElementById('thankYouMessage').style.display = 'block';
-            } else {
-                alert('Please select a rating before submitting.');
-            }
-        }
-    </script>
-</body>
-</html>
+    <button class=""submit-btn"" onclick=""submitRating()""><strong>Submit Rating</strong></button>
+    <div class=""thank-you"" id=""thankYouMessage""><strong>Thank you for your rating!</strong></div>
+</div>
 ",,,,,,,,NavyBlue
